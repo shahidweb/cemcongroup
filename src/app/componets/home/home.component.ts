@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   }
 
   getSliderData() {
-    this.coreService.getHttp().subscribe((res: any) => {
+    this.coreService.getHttp('home.json').subscribe((res: any) => {
       this.data = res.slider;
       this.about = res.about;
     })

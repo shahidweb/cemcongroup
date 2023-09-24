@@ -11,7 +11,7 @@ export class CoreService {
   constructor(private http: HttpClient) {
   }
 
-  getHttp() {
-    return this.http.get(environment.apiUrl);
+  getHttp(endPoint: string) {
+    return this.http.get(`${environment.apiUrl}${endPoint}`);
   }
 }

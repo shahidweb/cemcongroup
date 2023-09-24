@@ -1,5 +1,5 @@
 <app-carousel [images]="data"></app-carousel>
-<div class="container py-5">
+<div class="container py-5" *ngIf="about">
     <div class="row">
         <div class="col-lg-4 mt-0">
             <img src="{{about.img}}" class="d-block mx-lg-auto img-fluid" alt="{{about.title}}">

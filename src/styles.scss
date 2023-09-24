@@ -15,6 +15,13 @@ h1, h2, h3, h4, h5, h6{
     color: #242c33;
 }
 
+p, li {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.8em;
+}
+
+
 .text-primary {
     color: #2f3192 !important;
 }
@@ -32,11 +39,6 @@ img {
     width: 100%;
 }
 
-p {
-    color: #000;
-    font-size: 1rem;
-    line-height: 1.8em;
-}
 
 // *{font-size: 15px;}
 .f-12 {
