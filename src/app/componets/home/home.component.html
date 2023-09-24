@@ -1,1 +1,15 @@
 <app-carousel [images]="data"></app-carousel>
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-4 mt-0">
+            <img src="{{about.img}}" class="d-block mx-lg-auto img-fluid" alt="{{about.title}}">
+        </div>
+        <div class="col-lg-8 pt-5">
+            <h3 class="fw-bold lh-1 mb-3">{{about.title}}</h3>
+            <p [innerHtml]="about.body"></p>
+            <div class="mt-5">
+                <button type="button" class="btn btn-primary">{{about.button}}</button>
+            </div>
+        </div>
+    </div>
+</div>

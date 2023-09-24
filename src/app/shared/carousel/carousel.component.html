@@ -1,13 +1,12 @@
-
 <ngb-carousel *ngIf="images && images.length">
 	<ng-container *ngFor="let item of images">
 		<ng-template ngbSlide>
 			<div class="picsum-img-wrapper">
-				<img [src]="item.img" alt="{{item.title}}" />
+				<img class="img" style="background-image: url({{item.img}});" alt="{{item.title}}" />
 			</div>
 			<div class="carousel-caption">
-				<p>{{item.sub_title}}</p>
-				<h3>{{item.title}}</h3>
+				<span class="sub_title">{{item.sub_title}}</span>
+				<h1 class="title">{{item.title}}</h1>
 			</div>
 		</ng-template>
 	</ng-container>

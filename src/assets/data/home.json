@@ -27,5 +27,13 @@
             "button": "Our Industries",
             "btnPath": ""
         }
-    ]
+    ],
+    "about": {
+        "id": "about_1",
+        "title": "About Cemcon Group Pvt. Ltd.",
+        "body": "A captive unit of the Indian Railways, Cemcon group is a manufacturer and supplier of railway components. Been established in 1991, Cemcon group has emerged as a leading group of companies dealing in/with railway rubber parts,fabricated components, manufacturers, exporters, wholesalers and suppliers. <br> <br> Approved by Research Design & Standard Organisation, Lucknow (India), we are steadily manufacturing and supplying the mechanical & track safety products to Indian Railways.",
+        "img": "./assets/img/about_1.png",
+        "button": "Read More",
+        "btnPath": ""
+    }
 }

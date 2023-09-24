@@ -7,7 +7,8 @@ import { CoreService } from 'src/app/common/core.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  data: any = []
+  data: any = [];
+  about: any;
   constructor(private coreService: CoreService) { }
 
   ngOnInit(): void {
@@ -15,9 +16,9 @@ export class HomeComponent implements OnInit {
   }
 
   getSliderData() {
-    this.coreService.getHttp().subscribe((res:any) => {
+    this.coreService.getHttp().subscribe((res: any) => {
       this.data = res.slider;
-      console.log(this.data)
+      this.about = res.about;
     })
   }
 
