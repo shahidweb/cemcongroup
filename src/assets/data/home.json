@@ -1,0 +1,31 @@
+{
+    "slider": [
+        {
+            "id": "slider_1",
+            "sub_title": "Ensuring High",
+            "title": "Quality and Reliability",
+            "body": "",
+            "img": "./assets/img/slide-1.jpg",
+            "button": "Our Industries",
+            "btnPath": ""
+        },
+        {
+            "id": "slider_2",
+            "sub_title": "Customising",
+            "title": "to your needs",
+            "body": "",
+            "img": "./assets/img/slide-2.jpg",
+            "button": "Our Industries",
+            "btnPath": ""
+        },
+        {
+            "id": "slider_3",
+            "sub_title": "Making your ",
+            "title": "journey safer and better",
+            "body": "",
+            "img": "./assets/img/slide-3.jpg",
+            "button": "Our Industries",
+            "btnPath": ""
+        }
+    ]
+}

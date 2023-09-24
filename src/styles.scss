@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url(./app/cssClass/media-query.scss);
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
 
 .text-primary {
     color: #2f3192 !important;
@@ -19,3 +21,4 @@ img{width: 100%;}
 .f-12{font-size: 12px;}
 .f-13{font-size: 13px;}
 .f-15{font-size: 15px;}
+
