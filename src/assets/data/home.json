@@ -29,9 +29,8 @@
         }
     ],
     "about": {
-        "id": "about_1",
         "title": "Cemcon Group",
-        "body": "A captive unit of the Indian Railways, Cemcon group is a manufacturer and supplier of railway components. Been established in 1991, Cemcon group has emerged as a leading group of companies dealing in/with railway rubber parts,fabricated components, manufacturers, exporters, wholesalers and suppliers. <br> <br> Approved by Research Design & Standard Organisation, Lucknow (India), we are steadily manufacturing and supplying the mechanical & track safety products to Indian Railways.",
+        "body": "Cemcon group is a conglomerate of ISO 9000:2000-certified companies that have been approved by RDSO. Indian Railways for manufacturing and supply of railway corporate safety items. <br> <br> The group has manufacturing bases in the Indian states of Haryana, Rajasthan, Punjab, and Himachal Pradesh. The group has a corporate HQ in Delhi.",
         "img": "./assets/img/about_1.png",
         "button": "Read More",
         "btnPath": ""
@@ -60,7 +59,7 @@
         }
     ],
     "evolve": {
-        "id": "a1",
+        "id": "1",
         "title": "Why Choose Us",
         "body": {
             "title": "We Are Evolving",
@@ -75,5 +74,25 @@
         "img": "./assets/img/envolve.jpg",
         "button": "Read More",
         "btnPath": ""
+    },
+    "product": {
+        "title": "Our Product",
+        "body": [
+            {
+                "id": "1",
+                "title": "Track Fittings",
+                "img": "./assets/img/product-1.jpg"
+            },
+            {
+                "id": "2",
+                "title": "Carriage and Wagon Stock",
+                "img": "./assets/img/product-2.jpg"
+            },
+            {
+                "id": "3",
+                "title": "Electric Loco Shell Items and complete assembly",
+                "img": "./assets/img/product-2.jpg"
+            }
+        ]
     }
 }

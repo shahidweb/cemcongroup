@@ -1,5 +1,5 @@
 <app-carousel [images]="data"></app-carousel>
-<div class="container py-5" *ngIf="about">
+<div class="container py-4" *ngIf="about">
     <div class="row">
         <div class="col-lg-4 mt-0">
             <img src="{{about.img}}" class="d-block mx-lg-auto img-fluid" alt="{{about.title}}">
@@ -13,7 +13,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid py-5 bg-dark mb-3 bg-image" *ngIf="future">
+<div class="container-fluid py-4 bg-dark bg-image" *ngIf="future">
     <div class="container">
         <div class="row">
             <div class="col box" *ngFor="let item of future">
@@ -26,19 +26,34 @@
         </div>
     </div>
 </div>
-<div class="container py-5" *ngIf="evolve">
-    <div class="row flex-row-reverse">
-        <div class="col-lg-4 mt-0">
-            <img src="{{evolve.img}}" class="d-block mx-lg-auto img-fluid" alt="{{evolve.title}}">
+<div class="container-fluid bg-light">
+    <div class="container py-5" *ngIf="evolve">
+        <div class="row flex-row-reverse">
+            <div class="col-lg-4 mt-0">
+                <img src="{{evolve.img}}" class="d-block mx-lg-auto img-fluid" alt="{{evolve.title}}">
+            </div>
+            <div class="col-lg-8 pt-5">
+                <h5 class="lh-1 mb-3">{{evolve.title}}</h5>
+                <h3 class="fw-bold lh-1 mb-3">{{evolve.body.title}}</h3>
+                <ul>
+                    <li *ngFor="let item of evolve.body.data">{{item}}</li>
+                </ul>
+                <div class="mt-5">
+                    <button type="button" class="btn btn-primary">{{evolve.button}}</button>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-8 pt-5">
-            <h5 class="lh-1 mb-3">{{evolve.title}}</h5>
-            <h3 class="fw-bold lh-1 mb-3">{{evolve.body.title}}</h3>
-            <ul class="">
-                <li *ngFor="let item of evolve.body.data">{{item}}</li>
-            </ul>
-            <div class="mt-5">
-                <button type="button" class="btn btn-primary">{{evolve.button}}</button>
+    </div>
+</div>
+<div class="container-fluid py-4" *ngIf="product">
+    <div class="container">
+        <h3 class="text-center py-4">{{product.title}}</h3>
+        <div class="row">
+            <div class="col card p-0 me-5" *ngFor="let item of product.body">
+                <img class="card-img-top" [src]="item.img" alt="{{item.title}}">
+                <div class="card-body">
+                    <h5 class="card-text text-center">{{item.title}}</h5>
+                </div>
             </div>
         </div>
     </div>

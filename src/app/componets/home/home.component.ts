@@ -9,8 +9,9 @@ import { CoreService } from 'src/app/common/core.service';
 export class HomeComponent implements OnInit {
   data: any = [];
   about: any;
-  future:any = [];
-  evolve:any
+  future: any = [];
+  evolve: any;
+  product: any;
   constructor(private coreService: CoreService) { }
 
   ngOnInit(): void {
@@ -23,6 +24,7 @@ export class HomeComponent implements OnInit {
       this.about = res.about;
       this.future = res.future;
       this.evolve = res.evolve;
+      this.product = res.product
     })
   }
 
