@@ -9,27 +9,27 @@
             {
                 "id": "1",
                 "title": "Home",
-                "url": "#"
+                "url": "/"
             },
             {
                 "id": "2",
                 "title": "About Us",
-                "url": "#"
+                "url": "/"
             },
             {
                 "id": "3",
                 "title": "Product",
-                "url": "#"
+                "url": "/"
             },
             {
                 "id": "3",
                 "title": "Career",
-                "url": "#"
+                "url": "/"
             },
             {
                 "id": "3",
                 "title": "Contact",
-                "url": "#"
+                "url": "/"
             }
         ]
     },

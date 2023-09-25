@@ -1,0 +1,5 @@
+.nav-link.active:not(.bg-primary),
+.nav-link:hover:not(.bg-primary) {
+    color: #2f3192 !important;
+    font-weight: bold;
+}

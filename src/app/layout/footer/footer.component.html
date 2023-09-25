@@ -10,7 +10,7 @@
                 <h4 class="text-white">{{quickLink.title}}</h4>
                 <ul class="">
                     <li class="text-white" *ngFor="let nav of quickLink.data">
-                        <a class="text-decoration-none text-white" href="{{nav.url}}">{{nav.title}}</a>
+                        <a class="text-decoration-none text-white" routerLink="{{nav.url}}">{{nav.title}}</a>
                     </li>
                 </ul>
             </div>
@@ -26,9 +26,9 @@
     <div class="bottom_line border-top py-2 f-13">
         <div class="text-center">
             <span style="color:#fff">Copyright © {{year}}&nbsp;
-                <a class="text-white" href="https://www.cemcongroup.in/">Cemcon Group </a>
+                <a class="text-white" routerLink="https://www.cemcongroup.in/">Cemcon Group </a>
                 All Rights Reserved.
-                <!-- <a href=" https://www.creative24x7.com/" target="_blank"
+                <!-- <a routerLink=" https://www.creative24x7.com/" target="_blank"
                     style="font-family:'Federant', cursive;">creative24x7
                 </a> -->
             </span>
