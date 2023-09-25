@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   data: any = [];
   about: any;
   future:any = [];
+  evolve:any
   constructor(private coreService: CoreService) { }
 
   ngOnInit(): void {
@@ -21,6 +22,7 @@ export class HomeComponent implements OnInit {
       this.data = res.slider;
       this.about = res.about;
       this.future = res.future;
+      this.evolve = res.evolve;
     })
   }
 

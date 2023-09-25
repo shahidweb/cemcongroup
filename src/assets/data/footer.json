@@ -1,7 +1,7 @@
 {
     "ourCompany": {
-        "title": "CEMCON GROUP PVT. LTD.",
-        "description": "Approved by Research Design & Standard Organisation, Lucknow (India), we are steadily manufacturing and supplying the mechanical & track safety products to Indian Railways."
+        "title": "CEMCON GROUP",
+        "description": "A manufacturing conglomerate of ISO 9000:2000 certified companies who are OEM of high quality and reliable railway components."
     },
     "quickLink": {
         "title": "QUICK LINKS",
@@ -38,7 +38,7 @@
         "data": [
             {
                 "id": "1",
-                "title": "385, HSIIDC Industrial Area, Barhi, Distt. Sonepat-131001. HARYANA"
+                "title": "385, HSIIDC INDUSTRIAL AREA, BARHI, DISTT. SONEPAT -131001. HARYANA."
             },
             {
                 "id": "2",
@@ -46,7 +46,7 @@
             },
             {
                 "id": "2",
-                "title": "info@cemcongroup.in | cemcon@cemcongroup.com"
+                "title": "cemconbarhi385@gmail.com | cemcon@cemconeng.com | info@cemcongroup.in"
             }
         ]
     }

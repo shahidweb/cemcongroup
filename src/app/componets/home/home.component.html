@@ -5,7 +5,7 @@
             <img src="{{about.img}}" class="d-block mx-lg-auto img-fluid" alt="{{about.title}}">
         </div>
         <div class="col-lg-8 pt-5">
-            <h3 class="fw-bold lh-1 mb-3">{{about.title}}</h3>
+            <h3 class="fw-bold lh-1 mb-3 text-primary">{{about.title}}</h3>
             <p [innerHtml]="about.body"></p>
             <div class="mt-5">
                 <button type="button" class="btn btn-primary">{{about.button}}</button>
@@ -22,6 +22,23 @@
                     <hr>
                     <p>{{item.body}}</p>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-5" *ngIf="evolve">
+    <div class="row flex-row-reverse">
+        <div class="col-lg-4 mt-0">
+            <img src="{{evolve.img}}" class="d-block mx-lg-auto img-fluid" alt="{{evolve.title}}">
+        </div>
+        <div class="col-lg-8 pt-5">
+            <h5 class="lh-1 mb-3">{{evolve.title}}</h5>
+            <h3 class="fw-bold lh-1 mb-3">{{evolve.body.title}}</h3>
+            <ul class="">
+                <li *ngFor="let item of evolve.body.data">{{item}}</li>
+            </ul>
+            <div class="mt-5">
+                <button type="button" class="btn btn-primary">{{evolve.button}}</button>
             </div>
         </div>
     </div>

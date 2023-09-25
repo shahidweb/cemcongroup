@@ -1,11 +1,12 @@
 <footer class="bg-dark">
     <div class="container py-5 pb-3 text-white">
         <div class="row">
-            <div class="col">
+            <div class="col" *ngIf="company">
                 <h5 class="text-white">{{company.title}}</h5>
                 <p class="text-white">{{company.description}}</p>
             </div>
-            <div class="col">
+            <div class="col-sm-1"></div>
+            <div class="col" *ngIf="quickLink">
                 <h4 class="text-white">{{quickLink.title}}</h4>
                 <ul class="">
                     <li class="text-white" *ngFor="let nav of quickLink.data">
@@ -13,25 +14,23 @@
                     </li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col" *ngIf="address">
                 <h4 class="text-white">{{address.title}}</h4>
                 <ul class="">
                     <li class="text-white mb-2" *ngFor="let item of address.data"> {{item.title}} </li>
                 </ul>
-            </div>
-            <div class="col">
-                <h4 class="text-white">LOCATION</h4>
-                <p class="text-white"></p>
             </div>
         </div>
     </div>
 
     <div class="bottom_line border-top py-2 f-13">
         <div class="text-center">
-            <span style="color:#fff">Copyright © {{year}}&nbsp; <a href="https://www.cemcongroup.in/">cemcongroup.in </a> All Rights Reserved.
-                <a href=" https://www.creative24x7.com/" target="_blank"
+            <span style="color:#fff">Copyright © {{year}}&nbsp;
+                <a class="text-white" href="https://www.cemcongroup.in/">Cemcon Group </a>
+                All Rights Reserved.
+                <!-- <a href=" https://www.creative24x7.com/" target="_blank"
                     style="font-family:'Federant', cursive;">creative24x7
-                </a>
+                </a> -->
             </span>
         </div>
     </div>

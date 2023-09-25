@@ -30,7 +30,7 @@
     ],
     "about": {
         "id": "about_1",
-        "title": "About Cemcon Group Pvt. Ltd.",
+        "title": "Cemcon Group",
         "body": "A captive unit of the Indian Railways, Cemcon group is a manufacturer and supplier of railway components. Been established in 1991, Cemcon group has emerged as a leading group of companies dealing in/with railway rubber parts,fabricated components, manufacturers, exporters, wholesalers and suppliers. <br> <br> Approved by Research Design & Standard Organisation, Lucknow (India), we are steadily manufacturing and supplying the mechanical & track safety products to Indian Railways.",
         "img": "./assets/img/about_1.png",
         "button": "Read More",
@@ -41,22 +41,39 @@
             "id": "1",
             "icon": "fa fa-eye",
             "title": "Vision",
-            "body": "We see ourselves, establishing a Joint Manufacturing Base in India and overseas to serve Domestic as well as international market.",
+            "body": "We see ourselves as the leading OEM in India of high-quality and reliable safety components for expanding and vibrant transport and defense sectors with state of art manufacturing bases all over India.",
             "img": "./assets/img/future.jpg"
         },
         {
             "id": "2",
             "icon": "fa fa-bullseye",
             "title": "Mision",
-            "body": "Our company aims at improving productivity, achieving zero defects and meeting just-in-time supply requirements of not only the Indian Railways but also, the private railway siding markets to cater to the exacting standards.",
+            "body": "The group aims at improving productivity, achieving zero defects, and making just-in-time safety requirements of not only Indian railways and defense sectors but also expanding the private market for safety items of SUVs and commercial vehicles.",
             "img": "./assets/img/future.jpg"
         },
         {
             "id": "3",
             "icon": "fa fa-diamond",
             "title": "Values",
-            "body": "From our very inception, ensuring quality and reliability have always been the main objectives of our company. We work with integrity and are moving towards sustainable mobility.",
+            "body": "From inception high quality zero defects and full reliability have been the main objectives of the group safety of the commuters is of supreme importance and must not be compromised under any circumstances.",
             "img": "./assets/img/future.jpg"
         }
-    ]
+    ],
+    "evolve": {
+        "id": "a1",
+        "title": "Why Choose Us",
+        "body": {
+            "title": "We Are Evolving",
+            "data": [
+                "We like to see ourselves as an evolving group that explores the possibility of manufacturing high-tech components in Indian mkt, especially Indian railways.",
+                "From our very inception quality and reliability has been the main objective of the group. Zero defects and timely service are our policy.",
+                "We always seek highly skilled and motivated professionals from premier technical institutes and then groom them to be integral members of our team.",
+                "We always look for avenues to expand into new high-tech products through tech collaboration with reputed Indian and foreign companies.",
+                "Our products and services are involved with the lives of millions of passengers who travel daily by train. We are determined to make their journey safe and hassle-free."
+            ]
+        },
+        "img": "./assets/img/envolve.jpg",
+        "button": "Read More",
+        "btnPath": ""
+    }
 }
