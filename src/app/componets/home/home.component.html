@@ -1,5 +1,5 @@
 <app-carousel [images]="data"></app-carousel>
-<div class="container py-4" *ngIf="about">
+<div class="container py-5" *ngIf="about">
     <div class="row">
         <div class="col-lg-4 mt-0">
             <img src="{{about.img}}" class="d-block mx-lg-auto img-fluid" alt="{{about.title}}">
@@ -13,14 +13,16 @@
         </div>
     </div>
 </div>
-<div class="container-fluid py-4 bg-dark bg-image" *ngIf="future">
+<div class="container-fluid py-5 bg-dark bg-image" *ngIf="future">
     <div class="container">
         <div class="row">
-            <div class="col box" *ngFor="let item of future">
-                <div class="z-1 position-relative">
-                    <h3><i class="{{item.icon}} pe-3"></i>{{item.title}}</h3>
-                    <hr>
-                    <p>{{item.body}}</p>
+            <div class="col-lg-4" *ngFor="let item of future">
+                <div class="box">
+                    <div class="z-1 position-relative">
+                        <h3><i class="{{item.icon}} pe-3"></i>{{item.title}}</h3>
+                        <hr>
+                        <p>{{item.body}}</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,14 +47,16 @@
         </div>
     </div>
 </div>
-<div class="container-fluid py-4" *ngIf="product">
+<div class="container-fluid py-5" *ngIf="product">
     <div class="container">
-        <h3 class="text-center py-4">{{product.title}}</h3>
+        <h3 class="text-center pb-4">{{product.title}}</h3>
         <div class="row">
-            <div class="col card p-0 me-5" *ngFor="let item of product.body">
-                <img class="card-img-top" [src]="item.img" alt="{{item.title}}">
-                <div class="card-body">
-                    <h5 class="card-text text-center">{{item.title}}</h5>
+            <div class="col-lg-4" *ngFor="let item of product.body">
+                <div class="card">
+                    <img class="card-img-top" [src]="item.img" alt="{{item.title}}">
+                    <div class="card-body">
+                        <h5 class="card-text text-center">{{item.title}}</h5>
+                    </div>
                 </div>
             </div>
         </div>

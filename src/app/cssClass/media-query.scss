@@ -44,6 +44,11 @@
   */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .box {
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+
 
   /* CSS */
 
@@ -55,7 +60,12 @@
   */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
+  .box {
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+
+  .mobile{display: none;}
   /* CSS */
 
 }
@@ -73,6 +83,13 @@
   .show {
     display: block;
   }
+
+  .box {
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+  .mobile{display: none;}
+
 
   /* CSS */
 
