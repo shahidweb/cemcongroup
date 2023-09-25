@@ -1,0 +1,46 @@
+.box{
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-color: #fff;
+    padding: 3rem; 
+}
+
+.box:hover::before, .box:hover::after {
+    opacity: 1;
+}
+.box:hover * {
+    color: #fff;
+}
+
+.box::before {
+    content: "";
+    background: url(../../../assets/img/future.jpg) center center/cover no-repeat local;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.box::after {
+    content: "";
+    background-color: rgba(36, 44, 51, 0.75);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.bg-image {
+    background: url(../../../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 35px;
+    padding-top: 80px;
+}

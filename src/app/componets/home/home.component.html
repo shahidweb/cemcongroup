@@ -13,3 +13,16 @@
         </div>
     </div>
 </div>
+<div class="container-fluid py-5 bg-dark mb-3 bg-image" *ngIf="future">
+    <div class="container">
+        <div class="row">
+            <div class="col box" *ngFor="let item of future">
+                <div class="z-1 position-relative">
+                    <h3><i class="{{item.icon}} pe-3"></i>{{item.title}}</h3>
+                    <hr>
+                    <p>{{item.body}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

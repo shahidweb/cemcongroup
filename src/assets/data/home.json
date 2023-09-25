@@ -35,5 +35,28 @@
         "img": "./assets/img/about_1.png",
         "button": "Read More",
         "btnPath": ""
-    }
+    },
+    "future": [
+        {
+            "id": "1",
+            "icon": "fa fa-eye",
+            "title": "Vision",
+            "body": "We see ourselves, establishing a Joint Manufacturing Base in India and overseas to serve Domestic as well as international market.",
+            "img": "./assets/img/future.jpg"
+        },
+        {
+            "id": "2",
+            "icon": "fa fa-bullseye",
+            "title": "Mision",
+            "body": "Our company aims at improving productivity, achieving zero defects and meeting just-in-time supply requirements of not only the Indian Railways but also, the private railway siding markets to cater to the exacting standards.",
+            "img": "./assets/img/future.jpg"
+        },
+        {
+            "id": "3",
+            "icon": "fa fa-diamond",
+            "title": "Values",
+            "body": "From our very inception, ensuring quality and reliability have always been the main objectives of our company. We work with integrity and are moving towards sustainable mobility.",
+            "img": "./assets/img/future.jpg"
+        }
+    ]
 }
