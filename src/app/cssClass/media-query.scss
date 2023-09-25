@@ -65,7 +65,10 @@
     margin-bottom: 20px;
   }
 
-  .mobile{display: none;}
+  .mobile {
+    display: none;
+  }
+
   /* CSS */
 
 }
@@ -88,7 +91,20 @@
     height: auto !important;
     margin-bottom: 20px;
   }
-  .mobile{display: none;}
+
+  .mobile {
+    display: none;
+  }
+
+  .responsive {
+    &.f-35 {
+      font-size: 35px !important;
+    }
+
+    &.f-40 {
+      font-size: 40px !important;
+    }
+  }
 
 
   /* CSS */
