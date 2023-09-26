@@ -1,0 +1,7 @@
+{
+    "banner": {
+        "title": "About Us",
+        "image": "../../../assets/img/aboutus.jpg",
+        "routes": ["About"]
+    }
+}

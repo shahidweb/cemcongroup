@@ -1,0 +1,7 @@
+{
+    "banner": {
+        "title": "Product",
+        "image": "../../../assets/img/productTrack.jpg",
+        "routes": ["Product"]
+    }
+}

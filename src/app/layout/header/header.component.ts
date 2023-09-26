@@ -9,16 +9,11 @@ export class HeaderComponent {
   title = 'CEMCON GROUP';
   navbar: any = [
     { type: 'text', path: '/', name: 'Home', },
-    { type: 'text', path: '/', name: 'About us', },
-    {
-      type: 'text', path: '/', name: 'Product', subMenu: [
-        { path: '/', name: 'Track Fitting' },
-        { path: '/', name: 'Carriage and Wagon Stock' },
-      ]
-    },
-    { type: 'text', path: '/', name: 'Career', },
-    { type: 'text', path: '/', name: 'Contact', },
-    { type: 'btn', path: '/', name: 'Request Quote', },
+    { type: 'text', path: 'about', name: 'About us' },
+    { type: 'text', path: 'product', name: 'Product' },
+    { type: 'text', path: 'career', name: 'Career' },
+    { type: 'text', path: 'contact', name: 'Contact' },
+    { type: 'btn', path: 'contact', name: 'Request Quote' },
   ]
 
 }

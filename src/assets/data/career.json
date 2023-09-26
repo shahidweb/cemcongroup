@@ -1,0 +1,7 @@
+{
+    "banner": {
+        "title": "Career",
+        "image": "../../../assets/img/railCareer.jpg",
+        "routes": ["Career"]
+    }
+}

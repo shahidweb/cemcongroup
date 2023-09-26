@@ -14,22 +14,22 @@
             {
                 "id": "2",
                 "title": "About Us",
-                "url": "/"
+                "url": "/about"
             },
             {
                 "id": "3",
                 "title": "Product",
-                "url": "/"
+                "url": "/product"
             },
             {
                 "id": "3",
                 "title": "Career",
-                "url": "/"
+                "url": "/career"
             },
             {
                 "id": "3",
                 "title": "Contact",
-                "url": "/"
+                "url": "/contact"
             }
         ]
     },

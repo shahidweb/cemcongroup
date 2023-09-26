@@ -1,0 +1,53 @@
+.box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bg-img {
+    height: 400px;
+    width: 100%;
+}
+
+.bg-img::before {
+    content: "";
+    background: center center/cover no-repeat local;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.bg-img::after {
+    content: "";
+    background-color: rgba(13, 30, 45, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.bannerText {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    z-index: 1;
+    width: 100%;
+}
+
+.bannerText * {
+    color: #fff
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff
+}
+
+.breadcrumb-item.active {
+    color: #ddd;
+}

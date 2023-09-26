@@ -1,0 +1,16 @@
+<div class="box" *ngIf="data">
+    <div class="bg-img" style="background-image: url({{data.image}});"></div>
+    <div class="bannerText">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h2>{{data.title}}</h2>
+                <nav class="mt-auto" style="--bs-breadcrumb-divider: '>';">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-decoration-none" routerLink="/">Home</a></li>
+                        <li class="breadcrumb-item active" *ngFor="let item of data.routes">{{item}}</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
