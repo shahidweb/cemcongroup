@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CoreService } from 'src/app/common/core.service';
 
 @Component({
   selector: 'app-header',
@@ -6,14 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  title = 'CEMCON GROUP';
-  navbar: any = [
-    { type: 'text', path: '/', name: 'Home', },
-    { type: 'text', path: 'about', name: 'About us' },
-    { type: 'text', path: 'product', name: 'Product' },
-    { type: 'text', path: 'career', name: 'Career' },
-    { type: 'text', path: 'contact', name: 'Contact' },
-    { type: 'btn', path: 'contact', name: 'Request Quote' },
-  ]
+  header: any;
+
+  constructor(private coreService: CoreService) {
+    this.coreService.getHttp('header.json').subscribe((res: any) => {
+      this.header = res.header;
+    })
+  }
 
 }
