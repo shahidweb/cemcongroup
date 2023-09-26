@@ -2,6 +2,35 @@
     "banner": {
         "title": "About Us",
         "image": "../../../assets/img/aboutus.jpg",
-        "routes": ["About"]
+        "routes": [
+            "About"
+        ]
+    },
+    "glance": {
+        "title": "Company At A Glance",
+        "img": "../../../assets/img/glance.jpg",
+        "companyList": {
+            "title": "The Cemcon Group consists of two major companies, namely:",
+            "list": [
+                "CEMCON CASTING PVT LTD",
+                "B.G SLEEPER WORKS"
+            ]
+        },
+        "description": [
+            "Our firm M/s Cemcon Casting Pvt Ltd is a pioneer in manufacturing fabricated and rubber Items. Cemcon Casting Pvt Ltd. was established in 1995 as a leading manufacturer and supplier of Rubber components to railways. Its products and services are also Link-up approved.",
+            "It’s sister concern, M/s B G Sleeper Works was set up in 2007 as a manufacturing plant for concrete sleepers and its production started in 2009. We manufacture and supply all types of pre stressed concrete sleepers of defect free and utmost quality that exceeds customer satisfaction.",
+            "We are also committed to implement and maintain highest standards of quality, safety and customer service and have the internationally recognized IS0 9001-2015 quality system’s registration. We have remarkable manufacturing plants, advanced testing laboratories & developed offices at different locations in India. We strive to achieve more and more customer utility by motivating our work force and optimum utilization of resources."
+        ]
+    },
+    "message": {
+        "title": "MD Message",
+        "MDName": "MR ANKIT TAYAL.",
+        "designation": "(DIRECTOR)",
+        "description": [
+            "Progress for me has never been a dream. It has always been a distant reality and once one milestone is achieved there is always another one waiting to be crossed. It is with this belief that I started Cemcon in the year 1995.",
+            "Cemcon has become a prominent name in Indian Railways. But like all entrepreneurs who stick to their dream, I always wanted to push my company towards more prosperous milestones. I always perceived my company as a unit that could make a difference with its quality and competitively priced products.",
+            "Taking a path less travelled, I expanded Cemcon into a group of companies that require a high amount of technical know-how, expertise and specialized knowledge. Overcoming challenges after challenges with the support of my brilliant team, I have been successful in bringing Cemcon to achieve a new milestone of global recognition.",
+            "Indian Railways aims to be the engine for India’s economic growth and development by being safe, financially viable, environment friendly and caring for its customers and employees. We are proud to be serving Indian Railways."
+        ]
     }
 }

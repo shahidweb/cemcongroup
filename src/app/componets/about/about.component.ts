@@ -8,10 +8,14 @@ import { CoreService } from 'src/app/common/core.service';
 })
 export class AboutComponent {
   bannerData: any = {};
+  glance:any;
+  message:any
 
   constructor(private coreService: CoreService) {
     this.coreService.getHttp('about.json').subscribe((res: any) => {
       this.bannerData = res.banner;
+      this.glance = res.glance;
+      this.message = res.message;
     })
   }
 
