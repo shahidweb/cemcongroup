@@ -1,0 +1,98 @@
+{
+    "slider": [
+        {
+            "id": "slider_1",
+            "sub_title": "Ensuring High",
+            "title": "Quality and Reliability",
+            "body": "",
+            "img": "./assets/img/slide-1.jpg",
+            "button": "Our Industries",
+            "btnPath": ""
+        },
+        {
+            "id": "slider_2",
+            "sub_title": "Customising",
+            "title": "to your needs",
+            "body": "",
+            "img": "./assets/img/slide-2.jpg",
+            "button": "Our Industries",
+            "btnPath": ""
+        },
+        {
+            "id": "slider_3",
+            "sub_title": "Making your ",
+            "title": "journey safer and better",
+            "body": "",
+            "img": "./assets/img/slide-3.jpg",
+            "button": "Our Industries",
+            "btnPath": ""
+        }
+    ],
+    "about": {
+        "title": "Cemcon Group",
+        "body": "Cemcon group is a conglomerate of ISO 9000:2000-certified companies that have been approved by RDSO. Indian Railways for manufacturing and supply of railway corporate safety items. <br> <br> The group has manufacturing bases in the Indian states of Haryana, Rajasthan, Punjab, and Himachal Pradesh. The group has a corporate HQ in Delhi.",
+        "img": "./assets/img/about_1.png",
+        "button": "Read More",
+        "btnPath": ""
+    },
+    "future": [
+        {
+            "id": "1",
+            "icon": "fa fa-eye",
+            "title": "Vision",
+            "body": "We see ourselves as the leading OEM in India of high-quality and reliable safety components for expanding and vibrant transport and defense sectors with state of art manufacturing bases all over India.",
+            "img": "./assets/img/future.jpg"
+        },
+        {
+            "id": "2",
+            "icon": "fa fa-bullseye",
+            "title": "Mision",
+            "body": "The group aims at improving productivity, achieving zero defects, and making just-in-time safety requirements of not only Indian railways and defense sectors but also expanding the private market for safety items of SUVs and commercial vehicles.",
+            "img": "./assets/img/future.jpg"
+        },
+        {
+            "id": "3",
+            "icon": "fa fa-diamond",
+            "title": "Values",
+            "body": "From inception high quality zero defects and full reliability have been the main objectives of the group safety of the commuters is of supreme importance and must not be compromised under any circumstances.",
+            "img": "./assets/img/future.jpg"
+        }
+    ],
+    "evolve": {
+        "id": "1",
+        "title": "Why Choose Us",
+        "body": {
+            "title": "We Are Evolving",
+            "data": [
+                "We like to see ourselves as an evolving group that explores the possibility of manufacturing high-tech components in Indian mkt, especially Indian railways.",
+                "From our very inception quality and reliability has been the main objective of the group. Zero defects and timely service are our policy.",
+                "We always seek highly skilled and motivated professionals from premier technical institutes and then groom them to be integral members of our team.",
+                "We always look for avenues to expand into new high-tech products through tech collaboration with reputed Indian and foreign companies.",
+                "Our products and services are involved with the lives of millions of passengers who travel daily by train. We are determined to make their journey safe and hassle-free."
+            ]
+        },
+        "img": "./assets/img/envolve.jpg",
+        "button": "Read More",
+        "btnPath": ""
+    },
+    "product": {
+        "title": "Our Product",
+        "body": [
+            {
+                "id": "1",
+                "title": "Track Fittings",
+                "img": "./assets/img/product-1.jpg"
+            },
+            {
+                "id": "2",
+                "title": "Carriage and Wagon Stock",
+                "img": "./assets/img/product-2.jpg"
+            },
+            {
+                "id": "3",
+                "title": "Electric Loco Shell Items and complete assembly",
+                "img": "./assets/img/product-2.jpg"
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "ourCompany": {
+        "title": "CEMCON GROUP",
+        "description": "A manufacturing conglomerate of ISO 9000:2000 certified companies who are OEM of high quality and reliable railway components."
+    },
+    "quickLink": {
+        "title": "QUICK LINKS",
+        "data": [
+            {
+                "id": "1",
+                "title": "Home",
+                "url": "/"
+            },
+            {
+                "id": "2",
+                "title": "About Us",
+                "url": "/"
+            },
+            {
+                "id": "3",
+                "title": "Product",
+                "url": "/"
+            },
+            {
+                "id": "3",
+                "title": "Career",
+                "url": "/"
+            },
+            {
+                "id": "3",
+                "title": "Contact",
+                "url": "/"
+            }
+        ]
+    },
+    "ourAddress": {
+        "title": "OUR ADDRESS",
+        "data": [
+            {
+                "id": "1",
+                "title": "385, HSIIDC INDUSTRIAL AREA, BARHI, DISTT. SONEPAT -131001. HARYANA."
+            },
+            {
+                "id": "2",
+                "title": "918800000145, 919999040622, 919980569252"
+            },
+            {
+                "id": "2",
+                "title": "cemconbarhi385@gmail.com | cemcon@cemconeng.com | info@cemcongroup.in"
+            }
+        ]
+    }
+}

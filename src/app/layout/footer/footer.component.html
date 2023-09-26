@@ -1,28 +1,34 @@
 <footer class="bg-dark">
-    <div class="container py-5 text-white d-none">
+    <div class="container py-5 pb-3 text-white">
         <div class="row">
-            <div class="col">
-                <p class="h5">CEMCON GROUP PVT. LTD.</p>
-                <span>Approved by Research Design & Standard Organisation, Lucknow (India), we are steadily
-                    manufacturing and supplying the mechanical & track safety products to Indian Railways.</span>
+            <div class="col-lg-4" *ngIf="company">
+                <h5 class="text-white">{{company.title}}</h5>
+                <p class="text-white">{{company.description}}</p>
             </div>
-            <div class="col">
-                <p class="h5">QUICK LINKS</p>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 mobile" *ngIf="quickLink">
+                <h4 class="text-white">{{quickLink.title}}</h4>
+                <ul class="">
+                    <li class="text-white" *ngFor="let nav of quickLink.data">
+                        <a class="text-decoration-none text-white" routerLink="{{nav.url}}">{{nav.title}}</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col">
-                <p class="h5">OUR ADDRESS</p>
-                One of three columns
-            </div>
-            <div class="col">
-                <p class="h5">LOCATION</p>
+            <div class="col-lg-4" *ngIf="address">
+                <h4 class="text-white">{{address.title}}</h4>
+                <ul class="">
+                    <li class="text-white mb-2" *ngFor="let item of address.data"> {{item.title}} </li>
+                </ul>
             </div>
         </div>
     </div>
 
     <div class="bottom_line border-top py-2 f-13">
         <div class="text-center">
-            <span style="color:#fff">Copyright © {{year}}&nbsp; <a href="#">Cemcongroup.in </a> All Rights Reserved.
-                <!-- <a href=" https://www.creative24x7.com/" target="_blank"
+            <span style="color:#fff">Copyright © {{year}}&nbsp;
+                <a class="text-white" routerLink="https://www.cemcongroup.in/">Cemcon Group </a>
+                All Rights Reserved.
+                <!-- <a routerLink=" https://www.creative24x7.com/" target="_blank"
                     style="font-family:'Federant', cursive;">creative24x7
                 </a> -->
             </span>
