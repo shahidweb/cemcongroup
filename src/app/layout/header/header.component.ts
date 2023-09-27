@@ -8,6 +8,7 @@ import { CoreService } from 'src/app/common/core.service';
 })
 export class HeaderComponent {
   header: any;
+  isShow = false;
 
   constructor(private coreService: CoreService) {
     this.coreService.getHttp('header.json').subscribe((res: any) => {
