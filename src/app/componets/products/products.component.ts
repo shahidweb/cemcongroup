@@ -8,10 +8,12 @@ import { CoreService } from 'src/app/common/core.service';
 })
 export class ProductsComponent {
   bannerData: any = {};
+  product: any;
 
   constructor(private coreService: CoreService) {
     this.coreService.getHttp('product.json').subscribe((res: any) => {
       this.bannerData = res.banner;
+      this.product = res.content;
     })
   }
 }

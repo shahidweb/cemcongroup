@@ -1,4 +1,35 @@
 <app-banner [data]="bannerData"></app-banner>
-<div class="container">
-    <p>product works!</p>
-</div>
+<!-- <div class="container">
+    <div class="row">
+        <ng-container *ngIf="product">
+            <div class="col-lg-6 py-4 border-bottom" *ngFor="let data of product; let i = index">
+                <h3 *ngIf="i==0" class="fw-bold lh-1 mb-0 text-primary">{{data.title}}</h3>
+                <h5 *ngIf="i!=0" class="fw-bold lh-1 mb-0 text-primary">{{data.title}}</h5>
+                <p class="text-justify" *ngIf="data.description">{{data.description}}</p>
+                <img *ngIf="data.img" [src]="data.img" class="img-w-50">
+                <ul *ngIf="data.items.length">
+                    <li *ngFor="let list of data.items">{{list}}</li>
+                </ul>
+            </div>
+        </ng-container>
+    </div>
+</div> -->
+
+<ng-container *ngIf="product">
+    <div class="p-4" [ngClass]="odd ? 'bg-light' : 'bg-white'"
+        *ngFor="let data of product; let i = index; let odd = odd">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 *ngIf="i==0" class="fw-bold lh-1 mb-1 text-primary">{{data.title}}</h3>
+                    <h5 *ngIf="i!=0" class="fw-bold lh-1 mb-1 text-primary">{{data.title}}</h5>
+                    <p class="text-justify" *ngIf="data.description">{{data.description}}</p>
+                    <img *ngIf="data.img" [src]="data.img" class="img-w-50">
+                    <ul *ngIf="data.items.length">
+                        <li *ngFor="let list of data.items">{{list}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>
