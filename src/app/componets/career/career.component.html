@@ -1,4 +1,94 @@
 <app-banner [data]="bannerData"></app-banner>
 <div class="container">
-    <p>Career works!</p>
+    <div class="row">
+        <div class="col-sm-12">
+            <h3 class="fw-bold">Job Application</h3>
+        </div>
+    </div>
+    <form class="mx-3" name="form" #f="ngForm" (ngSubmit)="f.form.valid && onSubmit()">
+        <div class="row">
+            <div class="col-sm-6 py-1">
+                <label>Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="name" [(ngModel)]="form.name" required #name="ngModel"
+                    [ngClass]="{ 'is-invalid': f.submitted && name.errors }" />
+                <div *ngIf="f.submitted && name.errors" class="invalid-feedback">
+                    <div *ngIf="name.errors['required']">Name is required</div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 py-1">
+                <label>Surname <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="surname" [(ngModel)]="form.surname" required
+                    #surname="ngModel" [ngClass]="{ 'is-invalid': f.submitted && surname.errors }" />
+                <div *ngIf="f.submitted && surname.errors" class="invalid-feedback">
+                    <div *ngIf="surname.errors['required']">Surname is required</div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 py-1">
+                <label>Phone <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="phone" [(ngModel)]="form.phone" required #phone="ngModel"
+                    [ngClass]="{ 'is-invalid': f.submitted && phone.errors }" />
+                <div *ngIf="f.submitted && phone.errors" class="invalid-feedback">
+                    <div *ngIf="phone.errors['required']">Phone is required</div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 py-1">
+                <label>Email <span class="text-danger">*</span> </label>
+                <input type="email" class="form-control" name="email" [(ngModel)]="form.email" required email
+                    #email="ngModel" [ngClass]="{ 'is-invalid': f.submitted && email.errors }" />
+                <div *ngIf="f.submitted && email.errors" class="invalid-feedback">
+                    <div *ngIf="email.errors['required']">Email is required</div>
+                    <div *ngIf="email.errors['email']">Email is invalid</div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 py-1">
+                <label>Town <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="town" [(ngModel)]="form.town" required #town="ngModel"
+                    [ngClass]="{ 'is-invalid': f.submitted && town.errors }" />
+                <div *ngIf="f.submitted && town.errors" class="invalid-feedback">
+                    <div *ngIf="town.errors['required']">Town is required</div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 py-1">
+                <label>State <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="state" [(ngModel)]="form.state" required #state="ngModel"
+                    [ngClass]="{ 'is-invalid': f.submitted && state.errors }" />
+                <div *ngIf="f.submitted && state.errors" class="invalid-feedback">
+                    <div *ngIf="state.errors['required']">State is required</div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 py-1">
+                <label>Address <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="address" [(ngModel)]="form.address" required
+                    #address="ngModel" [ngClass]="{ 'is-invalid': f.submitted && address.errors }" />
+                <div *ngIf="f.submitted && address.errors" class="invalid-feedback">
+                    <div *ngIf="address.errors['required']">Address is required</div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 py-1">
+                <label>Zipcode <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="zipcode" [(ngModel)]="form.zipcode" required
+                    #zipcode="ngModel" [ngClass]="{ 'is-invalid': f.submitted && zipcode.errors }" />
+                <div *ngIf="f.submitted && zipcode.errors" class="invalid-feedback">
+                    <div *ngIf="zipcode.errors['required']">Zipcode is required</div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 py-1">
+                <textarea class="form-control" placeholder="Write a Message..." rows="5" [(ngModel)]="form.message"
+                    name="message"></textarea>
+            </div>
+
+            <div class="form-group text-end py-2 mb-3">
+                <button type="submit" class="btn btn-primary p-2 px-5 me-3">Register</button>
+                <button type="button" (click)="onReset(f)" class="btn btn-warning p-2 float-right">Reset</button>
+            </div>
+        </div>
+    </form>
 </div>

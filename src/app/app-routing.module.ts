@@ -7,11 +7,12 @@ import { CareerComponent } from './componets/career/career.component';
 import { ContactComponent } from './componets/contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'product', component: ProductsComponent },
   { path: 'career', component: CareerComponent },
   { path: 'contact', component: ContactComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: HomeComponent }
 ];
 

@@ -13,6 +13,7 @@ import { AboutComponent } from './componets/about/about.component';
 import { ProductsComponent } from './componets/products/products.component';
 import { CareerComponent } from './componets/career/career.component';
 import { ContactComponent } from './componets/contact/contact.component'
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ContactComponent } from './componets/contact/contact.component'
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
+    FormsModule,
     SharedModule,
   ],
   providers: [],
