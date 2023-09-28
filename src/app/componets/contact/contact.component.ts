@@ -26,8 +26,9 @@ export class ContactComponent {
     })
   }
 
-  onSubmit(): void {
+  onSubmit(form: NgForm): void {
     console.log(JSON.stringify(this.form, null, 2));
+    form.resetForm();
   }
 
   onReset(form: NgForm): void {
