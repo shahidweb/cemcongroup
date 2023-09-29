@@ -14,4 +14,8 @@ export class CoreService {
   getHttp(endPoint: string) {
     return this.http.get(`${environment.apiUrl}${endPoint}`);
   }
+
+  contactForm(form: any) {
+    return this.http.post('https://cemcongroup.in/mailHandler.php', form);
+  }
 }
