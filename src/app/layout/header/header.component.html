@@ -1,20 +1,19 @@
-<header class="p-3 mb-3 border-bottom fixed-top bg-white">
+<header class="p-3 mb-3 border-bottom fixed-top bg-white" *ngIf="header">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" routerLink="/">
-                <h4 class="m-0 fw-bold">{{title}}</h4>
+                <h4 class="m-0 fw-bold">{{header.title}}</h4>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" (click)="isShow = !isShow"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse flex-grow-0">
+            <div class="collapse navbar-collapse flex-grow-0" [class.show]="isShow">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <ng-container *ngFor="let nav of navbar">
+                    <ng-container *ngFor="let nav of header.navbar">
                         <li *ngIf="!nav.subMenu && nav.type !='btn'" class="nav-item">
-                            <!-- routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" -->
-                            <a class="nav-link" [class.active]="nav.name === 'Home'"
+                            <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
                                 routerLink="{{nav.path}}">{{nav.name}}</a>
                         </li>
                         <li *ngIf="nav.subMenu && nav.type !='btn'" class="nav-item dropdown">
@@ -27,7 +26,7 @@
                             </ul>
                         </li>
                         <li *ngIf="nav.type == 'btn'" class="nav-item">
-                            <a class="nav-link bg-primary text-white" routerLink="{{nav.path}}">{{nav.name}}</a>
+                            <a class="nav-link bg-primary text-white" [class.ps-2]="isShow" routerLink="{{nav.path}}">{{nav.name}}</a>
                         </li>
                     </ng-container>
                 </ul>

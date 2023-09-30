@@ -30,7 +30,7 @@
     ],
     "about": {
         "title": "Cemcon Group",
-        "body": "Cemcon group is a conglomerate of ISO 9000:2000-certified companies that have been approved by RDSO. Indian Railways for manufacturing and supply of railway corporate safety items. <br> <br> The group has manufacturing bases in the Indian states of Haryana, Rajasthan, Punjab, and Himachal Pradesh. The group has a corporate HQ in Delhi.",
+        "body": "Cemcon group is a conglomerate of ISO 9001:2000-certified companies that have been approved by RDSO. Indian Railways for manufacturing and supply of railway components - mostly safety items. <br> <br> The group has manufacturing bases in the Indian states of Haryana, Rajasthan, Punjab, and Himachal Pradesh. The group has a corporate HQ in Delhi.",
         "img": "./assets/img/about_1.png",
         "button": "Read More",
         "btnPath": ""
@@ -59,7 +59,6 @@
         }
     ],
     "evolve": {
-        "id": "1",
         "title": "Why Choose Us",
         "body": {
             "title": "We Are Evolving",

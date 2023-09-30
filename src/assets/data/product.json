@@ -1,0 +1,98 @@
+{
+    "banner": {
+        "title": "Product",
+        "image": "../../../assets/img/productTrack.jpg",
+        "routes": [
+            "Product"
+        ]
+    },
+    "content": [
+        {
+            "title": "Product - A Brief Overview",
+            "description": "Air suspension control equipment",
+            "img": "",
+            "items": [
+                "Duplex Check Valve",
+                "Leveling Valve (Left Hand & Right Hand)",
+                "Check Valve (non-return Valve)",
+                "Installation Lever",
+                "Isolating Cock",
+                "Two-way Centrifugal Dirt Collector",
+                "Air Reservoirs"
+            ]
+        },
+        {
+            "title": "Failure Indicator & Brake Application Device (FIBA",
+            "description": "",
+            "img": "../../../assets/img/fiba.png",
+            "items": []
+        },
+        {
+            "title": "Friction Components",
+            "description": "",
+            "img": "",
+            "items": [
+                "K - Type high friction non asbestos composite brake blocks for coaches.",
+                "L – Type low friction non asbestos composite brake blocks for goods wagons.",
+                "K – Type high friction non asbestos composite brake blocks for city trains (emu/demu).",
+                "Organic disc brake pads for high-speed trains.",
+                "Disc brake pads/shoe/linings for SUVs and commercial vehicles."
+            ]
+        },
+        {
+            "title": "Pre-Stressed Concrete Sleepers.",
+            "description": "",
+            "img": "",
+            "items": [
+                "Pre-stressed mono block concrete sleepers for broad gauge.",
+                "PSC monoblock line sleepersweder base",
+                "Modified wider base sleepers",
+                "PSC Sleepers T-7008 FOR 25 T AXLE load."
+            ]
+        },
+        {
+            "title": "PSC Special Sleepers",
+            "description": "",
+            "img": "",
+            "items": [
+                "PSC Monoblock Concrete Special Sleepers.",
+                "PSC Sleepers 1 In 8.5 Turnout Set.",
+                "PSC Sleepers 1 In 8.5 Derailing Switch Set.",
+                "PSC Sleeper 1 In 12 Turned Out To Be Set.",
+                "PSC Sleepers For Derailing Switch 1 In 8.5 (lh/rh)"
+            ]
+        },
+        {
+            "title": "Biodigester/Retention Tank",
+            "description": "",
+            "img": "",
+            "items": [
+                "Vacuum Evacuation System for Bio-toilet with the Pan.",
+                "Electro Pneumatic Pressurized Flushing System.",
+                "Bio Digester Tank.",
+                "Retention Tank"
+            ]
+        },
+        {
+            "title": "Metal Bonded Rubber Items",
+            "description": "",
+            "img": "",
+            "items": [
+                "Flexible Gangway With Foot Plate (Half Module).",
+                "Elastomeric Pads.",
+                "Grooved Rubber Sole Plates.",
+                "Gfn Liners."
+            ]
+        },
+        {
+            "title": "Railway Track Items",
+            "description": "",
+            "img": "",
+            "items": [
+                "All types of turnout switches for single crossover and double crossover.",
+                "Check Rails.",
+                "Track Fittings."
+            ]
+        }
+    ]
+}

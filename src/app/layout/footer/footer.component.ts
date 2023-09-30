@@ -10,9 +10,8 @@ export class FooterComponent implements OnInit {
   year = new Date().getFullYear();
   quickLink: any;
   address: any;
-  company:any;
+  company: any;
   constructor(private coreService: CoreService) {
-
   }
 
   ngOnInit(): void {

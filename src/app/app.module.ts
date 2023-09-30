@@ -8,7 +8,12 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from './shared/shared.module';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { AboutComponent } from './componets/about/about.component';
+import { ProductsComponent } from './componets/products/products.component';
+import { CareerComponent } from './componets/career/career.component';
+import { ContactComponent } from './componets/contact/contact.component'
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,12 +22,17 @@ import { HttpClientModule } from '@angular/common/http'
     HomeComponent,
     HeaderComponent,
     FooterComponent,
+    AboutComponent,
+    ProductsComponent,
+    CareerComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
+    FormsModule,
     SharedModule,
   ],
   providers: [],

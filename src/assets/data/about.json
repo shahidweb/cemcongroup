@@ -1,0 +1,37 @@
+{
+    "banner": {
+        "title": "About Us",
+        "image": "../../../assets/img/aboutus.jpg",
+        "routes": [
+            "About"
+        ]
+    },
+    "glance": {
+        "title": "Company At A Glance",
+        "img": "../../../assets/img/glance.jpg",
+        "companyList": {
+            "title": "",
+            "list": []
+        },
+        "description": [
+            "Cemcon group is a conglomerate of ISO 9001:2000-certified companies which have been approved by RDSO. Indian Railways for manufacturing and supply of railway components - mostly safety items. The group has manufacturing bases in the Indian states of Haryana, Rajasthan, Punjab, and Himachal Pradesh. The group has a corporate HQ in Delhi.",
+            "The group has four companies namely 1. Cemcon engineering co. Pvt. Ltd. 2. Cemcon castings Pvt. Ltd.  3. Cemcon railway industry. 4. Cemcon track industry. All the manufacturing units have in-house R&D divisions and state-of-the-art testing facilities with modern equipment.",
+            "The group is evolving and has always been interested in the manufacturing and supply of new high-tech products in technical collaboration with reputed domestic and international companies.",
+            "The group has a dynamic HR Policy whereby it always seeks to employ skilled and motivated professional. It gives incentives to its employees on a regular basis with a view to not only retain them but also to encourage innovation. Team building is our objective of HR Policy.",
+            "The group has also a significant presence in the private domestic market for auto components speciality the discbreke pads/shoes/and linings. High quality and high reliability with zero defect is our priority from very incorporation."
+        ]
+    },
+    "message": {
+        "title": "From Director Desk ",
+        "MDName": "Mr. ANKIT TAYAL.",
+        "designation": "(DIRECTOR)",
+        "heading": "Cemcon Group",
+        "description": [
+            "Progress for me has never been a dream. It has always been a distant reality and once one milestone is achieved there is always another one waiting to be crossed. It is with this belief that I started Cemcon in the year 1995.",
+            "Cemcon has become a prominent name in Indian Railways. But like all entrepreneurs who stick to their dream, I always wanted to push my company towards more prosperous milestones. I always perceived my company as a unit that could make a difference with its quality and competitively priced products.",
+            "Taking a path less travelled, I expanded Cemcon into a group of companies that require a high amount of technical know-how, expertise and specialized knowledge. Overcoming challenges after challenges with the support of my brilliant team, I have been successful in bringing Cemcon to achieve a new milestone of global recognition.",
+            "Taking a path less travelled, I expanded Cemcon into a group of companies that require a high amount of technical know-how, expertise and specialized knowledge. Overcoming challenges after challenges with the support of my brilliant team, I have been successful in bringing Cemcon to achieve a new milestone of global recognition.",
+            "Indian Railways aims to be the engine for India’s economic growth and development by being safe, financially viable, environment friendly and caring for its customers and employees. We are proud to be serving Indian Railways."
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+<app-banner [data]="bannerData"></app-banner>
+<div class="container py-5" *ngIf="glance">
+    <div class="row">
+        <div class="col-lg-7">
+            <h3 class="fw-bold lh-1 mb-3 text-primary">{{glance.title}}</h3>
+            <ol class="list-group list-group-numbered mb-2">
+                <p>{{glance.companyList.title}}</p>
+                <li class="list-group-item border-0 p-0" *ngFor="let item of glance.companyList.list">{{item}}</li>
+            </ol>
+            <p class="pt-3 text-justify" *ngFor="let item of glance.description">{{item}}</p>
+        </div>
+        <div class="col-lg-4 mt-0 offset-lg-1">
+            <img src="{{glance.img}}" class="d-block mx-lg-auto img-fluid" alt="{{glance.title}}">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 bg-light" *ngIf="message">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-md-2">
+                <h3 class="fw-bold lh-1 mb-3 text-primary">{{message.title}}</h3>
+                <h5 class="fw-bold lh-1 mb-0 text-primary">{{message.heading}}</h5>
+                <p class="pt-3 text-justify" *ngFor="let item of message.description">{{item}}</p>
+                <div class="tag pt-4">
+                    <h5 class="mb-0">{{message.MDName}}</h5>
+                    <span>{{message.designation}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
