@@ -8,6 +8,7 @@ $name = $_POST['name'];
 $surname = $_POST['surname'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
+$subject = "Job:Profile";
 $town = $_POST['town'];
 $state = $_POST['state'];
 $address = $_POST['address'];
