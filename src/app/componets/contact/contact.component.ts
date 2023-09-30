@@ -35,10 +35,10 @@ export class ContactComponent {
     data.append("email", this.form.email);
     data.append("subject", this.form.subject);
     data.append("message", this.form.message);
-    this.coreService.contactForm(data).subscribe(res => {
-      this.route.navigateByUrl('/home');
-      form.resetForm();
-    })
+    this.coreService.postHttp(data, this.coreService.end_Points.contact_email).subscribe({
+      next: () => { this.route.navigateByUrl('/home'); form.resetForm(); },
+      error: () => { this.route.navigateByUrl('/home'); form.resetForm(); },
+    });
   }
 
   onReset(form: NgForm): void {

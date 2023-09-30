@@ -1,4 +1,5 @@
 export const environment = {
-    production: true,
-    apiUrl: '../assets/data/'
-  };
+  production: true,
+  fakeApi: '../assets/data/',
+  apiUrl: "https://cemcongroup.in/"
+};
