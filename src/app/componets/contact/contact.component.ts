@@ -28,13 +28,7 @@ export class ContactComponent {
   }
 
   onSubmit(form: NgForm): void {
-    console.log(JSON.stringify(this.form, null, 2));
-    const data = new FormData();
-    data.append("name", this.form.name);
-    data.append("phone", this.form.phone);
-    data.append("email", this.form.email);
-    data.append("subject", this.form.subject);
-    data.append("message", this.form.message);
+    const data = this.coreService.appendData(form.value);
     this.coreService.postHttp(data, this.coreService.end_Points.contact_email).subscribe({
       next: () => { this.route.navigateByUrl('/home'); form.resetForm(); },
       error: () => { this.route.navigateByUrl('/home'); form.resetForm(); },

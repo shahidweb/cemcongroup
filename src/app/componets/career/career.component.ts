@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 import { CoreService } from 'src/app/common/core.service';
 
 @Component({
@@ -21,7 +22,7 @@ export class CareerComponent {
     message: '',
   };
 
-  constructor(private coreService: CoreService) {
+  constructor(private coreService: CoreService, private route: Router) {
     this.coreService.getHttp('career.json').subscribe((res: any) => {
       this.bannerData = res.banner;
     })
@@ -29,8 +30,11 @@ export class CareerComponent {
 
 
   onSubmit(form: NgForm): void {
-    console.log(JSON.stringify(this.form, null, 2));
-    form.resetForm();
+    const data = this.coreService.appendData(form.value);
+    this.coreService.postHttp(data, this.coreService.end_Points.career_email).subscribe({
+      next: () => { this.route.navigateByUrl('/home'); form.resetForm(); },
+      error: () => { this.route.navigateByUrl('/home'); form.resetForm(); },
+    });
   }
 
   onReset(form: NgForm): void {
